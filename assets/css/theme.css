@@ -61,7 +61,7 @@ footer.footer {
   width: 100%;
   opacity: 0; }
 
-.overlay2 {
+.item-overlay {
   border-radius: 16px;
   position: absolute;
   top: 0;
@@ -87,7 +87,7 @@ footer.footer {
   cursor: -webkit-zoom-in;
   cursor: zoom-in; }
 
-  .card-pin:hover .overlay2 {
+  .card-pin:hover .item-overlay {
     opacity: 1;
     border-radius: 16px;
     -webkit-transition: ease .2s;
