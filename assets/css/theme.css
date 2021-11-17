@@ -123,7 +123,7 @@ button#btn-share {
   right: 0;
   top: 0;
   text-align: center;
-  max-block-size: 40%;
+  max-width: 40%;
   -moz-text-size-adjust: auto; }
 
 /* line 66, src/assets/scss/theme.scss */
