@@ -114,8 +114,12 @@ footer.footer {
           transform: translate(-20%, -20%);
   -ms-transform: translate(-50%, -50%); }
 
-button#btn-share {
+  .btn-primary {
+  padding: 0.4em;
   color: white;
+  display: inline-block;
+  max-width: 40%;
+  height: auto;
   position: absolute;
   margin-right: 0.75em;
   margin-top: 0.75em;
@@ -123,14 +127,20 @@ button#btn-share {
   right: 0;
   top: 0;
   text-align: center;
-  max-width: 40%; }
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
 
 /* line 66, src/assets/scss/theme.scss */
 .card-pin:hover .card-title {
+  padding: 0.70em;
   color: #ffffff;
   font: bold;
   text-align: left;
-  font-size: 1.2em; }
+  font-size: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
 
 /* line 73, src/assets/scss/theme.scss */
 .card-pin:hover .more a {
